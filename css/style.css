@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  background-color: #fff;
+}
+
+nav {
+  background-color: #fff;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+ul {
+  padding: 1.5rem;
+  display: flex;
+  gap: 1rem;
+}
+
+li {
+  list-style-type: none;
+  border: 1px solid #000000;
+  padding: 4px;
+  background: #104403;
+  border-radius: 4px;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+li:hover {
+  transform: translateY(-2px);
+  box-shadow: -4px 4px #d80b0b;
+  transition: all 300ms;
+}
+
+.claseheader {
+  font-style: bold;
+  text-align: center;
+  height: 100%;
+  width: 100%;
+}
+
+.parrafo {
+  text-align: center;
+  font-size: small;
+  height: 100%;
+  width: 100%;
+}
